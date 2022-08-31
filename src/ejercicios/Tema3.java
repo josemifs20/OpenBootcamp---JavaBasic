@@ -27,7 +27,7 @@ public class Tema3 {
             for (String palabraMostrar : arrayString) {
                 concatenarBuilder.append(palabraMostrar);
             }
-
+            // Con print únicamente imprimiríamos en la misma linea.
             System.out.println("Las palabras concatenadas utilizando StringBuilder son: " + concatenarBuilder);
         } catch (Exception e) {
             e.getMessage();
