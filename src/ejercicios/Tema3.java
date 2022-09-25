@@ -19,7 +19,7 @@ public class Tema3 {
 
             String concatenar = "";
             for (String palabraMostrar : arrayString) {
-                concatenar = concatenar + palabraMostrar;
+                concatenar += palabraMostrar;
             }
             System.out.println("Las palabras concatenadas son: " + concatenar);
 
